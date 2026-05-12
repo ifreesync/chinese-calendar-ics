@@ -1,0 +1,42 @@
+name: Holiday data yearly reminder
+
+on:
+  schedule:
+    - cron: "0 1 5 11 *"
+    - cron: "0 1 20 11 *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const y = new Date().getFullYear() + 1;
+            const title = "[yearly] Update data/holidays.json for " + y + " (State Council)";
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100
+            });
+            if (issues.some(i => i.title === title)) return;
+            const body = [
+              "The State Council usually publishes the next calendar years holiday plan in late year.",
+              "",
+              "Please edit **data/holidays.json** manually from the official notice on https://www.gov.cn",
+              "There is **no official JSON API**. This repo does not auto-scrape (layout changes break accuracy).",
+              "",
+              "After push, workflow **publish.yml** regenerates **out/*.ics**.",
+              "Target calendar year for this reminder: **" + y + "**"
+            ].join("\n");
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body
+            });
