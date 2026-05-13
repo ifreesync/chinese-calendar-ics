@@ -51,10 +51,7 @@ JQ_INDEX_TO_NAME = (
     "大雪",
 )
 
-# RFC 7986 COLOR（放假绿 / 补班橙）。iPhone「日历」对已订阅日历多数情况下整条日历只有一种颜色，
-# 仍以标题里的「休」「补」区分；写入 COLOR 便于今后或其它客户端识别。
-COLOR_LEGAL_REST = "#34C759"
-COLOR_LEGAL_MAKEUP = "#FF9500"
+# 每行折叠见 _fold_line（75 octet）。勿在 VEVENT 使用非标准属性，以免 iOS 订阅整表失效。
 
 TRADITIONAL_LUNAR_EVENTS: List[Tuple[int, int, str, bool]] = [
     (1, 15, "元宵节（正月十五）", False),
@@ -147,14 +144,37 @@ def _ics_escape(s: str) -> str:
     )
 
 
-def _fold_line(line: str, limit: int = 75) -> List[str]:
-    if len(line) <= limit:
+def _fold_line(line: str) -> List[str]:
+    """RFC 5545：每行内容（除 CRLF）不超过 75 个 octet；续行以 CRLF + 单个空格开头。
+
+    中文一字占多字节，若按「字符数」折行会超长，iPhone「日历」等客户端会拒收整份订阅。
+    """
+    data = line.encode("utf-8")
+    if len(data) <= 75:
         return [line]
-    parts = [line[:limit]]
-    rest = line[limit:]
-    while rest:
-        parts.append(" " + rest[: limit - 1])
-        rest = rest[limit - 1 :]
+
+    def take(start: int, max_len: int) -> tuple[bytes, int]:
+        if start >= len(data):
+            return b"", start
+        end = min(start + max_len, len(data))
+        while end > start:
+            try:
+                data[start:end].decode("utf-8")
+                return data[start:end], end
+            except UnicodeDecodeError:
+                end -= 1
+        end = start + 1
+        while end < len(data) and (data[end] & 0xC0) == 0x80:
+            end += 1
+        return data[start:end], end
+
+    parts: List[str] = []
+    pos = 0
+    chunk, pos = take(pos, 75)
+    parts.append(chunk.decode("utf-8"))
+    while pos < len(data):
+        chunk, pos = take(pos, 74)
+        parts.append(" " + chunk.decode("utf-8"))
     return parts
 
 
@@ -179,15 +199,12 @@ def add_all_day_vevent(
     uid: str,
     categories: str,
     description: str = "",
-    color: str | None = None,
 ) -> None:
     lines.append("BEGIN:VEVENT")
     lines.append("UID:%s" % uid)
     lines.append("DTSTAMP:%s" % _dtstamp_utc())
     lines.append("DTSTART;VALUE=DATE:%s" % _format_date_value(start))
     lines.append("DTEND;VALUE=DATE:%s" % _format_date_value(end_exclusive))
-    if color:
-        lines.append("COLOR:%s" % color)
     for L in _fold_line("SUMMARY:%s" % _ics_escape(summary)):
         lines.append(L)
     if description:
@@ -303,7 +320,6 @@ def build_calendar_official(holiday_data: dict, years: range, lines: List[str]) 
                     _uid("vac", key, str(d), name),
                     "法定假日",
                     description,
-                    color=COLOR_LEGAL_REST,
                 )
 
         for idx, m in enumerate(makeup_sorted, start=1):
@@ -332,7 +348,6 @@ def build_calendar_official(holiday_data: dict, years: range, lines: List[str]) 
                 _uid("work", m["date"], for_label),
                 "调休补班",
                 description,
-                color=COLOR_LEGAL_MAKEUP,
             )
 
 
