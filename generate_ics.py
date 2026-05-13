@@ -6,6 +6,9 @@
 - 农历传统节日：zhdate
 - 国际节日：脚本内固定规则
 
+iPhone「日历」无法通过订阅文件把「休」叠在月视图日期数字上（界面由系统绘制）；
+放假日程标题仅为节假日名称，「休」与第几天写在备注（DESCRIPTION）。
+
 用法: python generate_ics.py --start 2024 --end 2026 --out out
 """
 from __future__ import annotations
@@ -230,6 +233,22 @@ def load_official(path: str) -> dict:
         return json.load(f)
 
 
+def vacation_dates_covering(holiday_data: dict, years: range) -> frozenset[date]:
+    """国务院放假区间内每一天（用于合并日历时跳过同一天的传统农历条目，避免重复）。"""
+    covered: set[date] = set()
+    for y in years:
+        block = holiday_data.get(str(y))
+        if not block:
+            continue
+        for v in block.get("vacations", []):
+            start = _parse_date(v["start"])
+            end_incl = _parse_date(v["end"])
+            span = (end_incl - start).days + 1
+            for i in range(span):
+                covered.add(start + timedelta(days=i))
+    return frozenset(covered)
+
+
 def build_calendar_official(holiday_data: dict, years: range, lines: List[str]) -> None:
     for y in years:
         key = str(y)
@@ -256,8 +275,8 @@ def build_calendar_official(holiday_data: dict, years: range, lines: List[str]) 
             for day_idx in range(total_days):
                 d = start + timedelta(days=day_idx)
                 nth = day_idx + 1
-                # 紧凑标题，适配 iPhone 月视图格子（详情见 DESCRIPTION）
-                summary = "休·%s·%d/%d" % (name, nth, total_days)
+                # iPhone「日历」列表仅展示 SUMMARY：只写节假日名称；休 / 第几天见备注。
+                summary = name
                 desc_lines = [
                     "今日标记：休（法定放假）。",
                     "",
@@ -290,7 +309,7 @@ def build_calendar_official(holiday_data: dict, years: range, lines: List[str]) 
         for idx, m in enumerate(makeup_sorted, start=1):
             d = _parse_date(m["date"])
             for_label = m.get("for", "调休")
-            summary = "补·%s·%d/%d" % (for_label, idx, year_makeup_total)
+            summary = "补班·%s" % for_label
             desc_lines = [
                 "今日标记：补（调休补班）。",
                 "",
@@ -338,22 +357,28 @@ def build_calendar_jieqi(years: range, lines: List[str]) -> None:
             )
 
 
-def build_calendar_traditional_lunar(years: range, lines: List[str]) -> None:
+def build_calendar_traditional_lunar(
+    years: range,
+    lines: List[str],
+    skip_gregorian_dates: frozenset[date] | None = None,
+) -> None:
+    skip = skip_gregorian_dates or frozenset()
     for y in years:
         try:
             sf = ZhDate(y, 1, 1).to_datetime().date()
             if sf.year == y:
-                add_all_day_vevent(
-                    lines,
-                    sf,
-                    sf + timedelta(days=1),
-                    "春节（农历正月初一）",
-                    _uid("lunar", str(y), "spring"),
-                    "传统节日",
-                    "农历新年。法定春节假期以国务院安排为准。",
-                )
+                if sf not in skip:
+                    add_all_day_vevent(
+                        lines,
+                        sf,
+                        sf + timedelta(days=1),
+                        "春节（农历正月初一）",
+                        _uid("lunar", str(y), "spring"),
+                        "传统节日",
+                        "农历新年。法定春节假期以国务院安排为准。",
+                    )
                 eve = sf - timedelta(days=1)
-                if eve.year == y:
+                if eve.year == y and eve not in skip:
                     add_all_day_vevent(
                         lines,
                         eve,
@@ -366,6 +391,8 @@ def build_calendar_traditional_lunar(years: range, lines: List[str]) -> None:
             pass
         for lm, ld, label, leap in TRADITIONAL_LUNAR_EVENTS:
             for d in _lunar_solar_dates_in_gregorian_year(y, lm, ld, leap=leap):
+                if d in skip:
+                    continue
                 add_all_day_vevent(
                     lines,
                     d,
@@ -462,7 +489,11 @@ def main() -> None:
     ]
     build_calendar_official(holiday_data, years, combined)
     build_calendar_jieqi(years, combined)
-    build_calendar_traditional_lunar(years, combined)
+    build_calendar_traditional_lunar(
+        years,
+        combined,
+        skip_gregorian_dates=vacation_dates_covering(holiday_data, years),
+    )
     build_calendar_intl(years, combined)
     combined.append("END:VCALENDAR")
     write_ical(os.path.join(args.out, "combined.ics"), combined)

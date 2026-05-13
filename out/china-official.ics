@@ -7,44 +7,44 @@ X-WR-CALNAME:中国历（模块化）
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:9ed1c05516ade7b2b52c79ca87afb695@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20231230
 DTEND;VALUE=DATE:20231231
 COLOR:#34C759
-SUMMARY:休·元旦·1/3
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n元旦 — 依据国务院公布的节假日安排。\n与
  周末连休\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:08badb12f4e378b3b63b7343d83add87@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20231231
 DTEND;VALUE=DATE:20240101
 COLOR:#34C759
-SUMMARY:休·元旦·2/3
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n元旦 — 依据国务院公布的节假日安排。\n与
  周末连休\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:bb35daa66eaa503848bfaddf1d91a0ca@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240101
 DTEND;VALUE=DATE:20240102
 COLOR:#34C759
-SUMMARY:休·元旦·3/3
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n元旦 — 依据国务院公布的节假日安排。\n与
  周末连休\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:4677ee812ffee16721e7cc73ee675e97@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240210
 DTEND;VALUE=DATE:20240211
 COLOR:#34C759
-SUMMARY:休·春节·1/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 1 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -52,11 +52,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:7074b926a9451fedecf57d8a6d90c069@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240211
 DTEND;VALUE=DATE:20240212
 COLOR:#34C759
-SUMMARY:休·春节·2/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 2 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -64,11 +64,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:3cccccd0c1fde284b4d41ff6e730a167@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240212
 DTEND;VALUE=DATE:20240213
 COLOR:#34C759
-SUMMARY:休·春节·3/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 3 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -76,11 +76,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:b9622ff9e2a492eb8a63e2d2a0447dac@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240213
 DTEND;VALUE=DATE:20240214
 COLOR:#34C759
-SUMMARY:休·春节·4/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 4 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -88,11 +88,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:6c972e5c4924e0c6137747b64ea23d31@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240214
 DTEND;VALUE=DATE:20240215
 COLOR:#34C759
-SUMMARY:休·春节·5/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 5 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -100,11 +100,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:43bbf8a93ac178e9be6a340ec76d2b9c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240215
 DTEND;VALUE=DATE:20240216
 COLOR:#34C759
-SUMMARY:休·春节·6/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 6 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -112,11 +112,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:acd00d68d7973b01ed5ffdeb1c2b28b3@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240216
 DTEND;VALUE=DATE:20240217
 COLOR:#34C759
-SUMMARY:休·春节·7/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 7 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -124,11 +124,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:5bf939e1294b40688aa773b531e5eb53@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240217
 DTEND;VALUE=DATE:20240218
 COLOR:#34C759
-SUMMARY:休·春节·8/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 8 天。\n春节 — 依据国务院公布的节假日安排。\n鼓
  励除夕休息\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -136,99 +136,99 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:2bb1815900092612ccfd2039e01cb1bf@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240404
 DTEND;VALUE=DATE:20240405
 COLOR:#34C759
-SUMMARY:休·清明节·1/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:f4b431855580bd6607c695d12d979f20@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240405
 DTEND;VALUE=DATE:20240406
 COLOR:#34C759
-SUMMARY:休·清明节·2/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:49784004713324f013d87c4bcf46c5c7@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240406
 DTEND;VALUE=DATE:20240407
 COLOR:#34C759
-SUMMARY:休·清明节·3/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:0c0058a508dd6ae4a5dfc1af0bf9f392@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240501
 DTEND;VALUE=DATE:20240502
 COLOR:#34C759
-SUMMARY:休·劳动节·1/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 1 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:52491aafe25138657ee5eca2a78ca183@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240502
 DTEND;VALUE=DATE:20240503
 COLOR:#34C759
-SUMMARY:休·劳动节·2/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 2 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:b67519294c1062bdc93fadc3149018e1@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240503
 DTEND;VALUE=DATE:20240504
 COLOR:#34C759
-SUMMARY:休·劳动节·3/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 3 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:3af1797b8fc628d174116a5a614c6ce7@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240504
 DTEND;VALUE=DATE:20240505
 COLOR:#34C759
-SUMMARY:休·劳动节·4/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 4 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:bb79926681a8f3540a43c4e6f1620450@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240505
 DTEND;VALUE=DATE:20240506
 COLOR:#34C759
-SUMMARY:休·劳动节·5/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 5 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:b7e048968d45ad9609041034035e5f98@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240608
 DTEND;VALUE=DATE:20240609
 COLOR:#34C759
-SUMMARY:休·端午节·1/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n端午节 — 依据国务院公布的节假日安排。\n
  与周末连休\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -236,11 +236,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:375cda0beff88dc1d669c47f1657471e@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240609
 DTEND;VALUE=DATE:20240610
 COLOR:#34C759
-SUMMARY:休·端午节·2/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n端午节 — 依据国务院公布的节假日安排。\n
  与周末连休\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -248,11 +248,11 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:42eec9d20140185df50675994599a16d@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240610
 DTEND;VALUE=DATE:20240611
 COLOR:#34C759
-SUMMARY:休·端午节·3/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n端午节 — 依据国务院公布的节假日安排。\n
  与周末连休\n\n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天
  。
@@ -260,121 +260,121 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:2e655cdfb4ed7df8a318353e1648d958@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240915
 DTEND;VALUE=DATE:20240916
 COLOR:#34C759
-SUMMARY:休·中秋节·1/3
+SUMMARY:中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n中秋节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:23a02ec80d9a20970b245148a3956217@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240916
 DTEND;VALUE=DATE:20240917
 COLOR:#34C759
-SUMMARY:休·中秋节·2/3
+SUMMARY:中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n中秋节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:cda29db1a8568959445f367fd31d6ec8@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240917
 DTEND;VALUE=DATE:20240918
 COLOR:#34C759
-SUMMARY:休·中秋节·3/3
+SUMMARY:中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n中秋节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:558b43e2c7383b152483965e895124bb@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241001
 DTEND;VALUE=DATE:20241002
 COLOR:#34C759
-SUMMARY:休·国庆节·1/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 1 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d0654a2359356a6ba5bf2b95c3d635d0@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241002
 DTEND;VALUE=DATE:20241003
 COLOR:#34C759
-SUMMARY:休·国庆节·2/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 2 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:33b9c86ac53bc56e54a054011bfba243@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241003
 DTEND;VALUE=DATE:20241004
 COLOR:#34C759
-SUMMARY:休·国庆节·3/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 3 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:c730f28e9e4ce2c013924cb7d96ab0c1@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241004
 DTEND;VALUE=DATE:20241005
 COLOR:#34C759
-SUMMARY:休·国庆节·4/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 4 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:050b138ee8e040f245c498f8cb86101c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241005
 DTEND;VALUE=DATE:20241006
 COLOR:#34C759
-SUMMARY:休·国庆节·5/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 5 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:56ebb91dc5aa2b75a9409a5e86885921@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241006
 DTEND;VALUE=DATE:20241007
 COLOR:#34C759
-SUMMARY:休·国庆节·6/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 6 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:055b7f09396e21a82e174742fff87ff3@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241007
 DTEND;VALUE=DATE:20241008
 COLOR:#34C759
-SUMMARY:休·国庆节·7/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 7 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2024 年统计（日历口径）——\n本年放假天数合计：32 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：8 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:27dfa78e26c75c3650feb4b72eeae671@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240204
 DTEND;VALUE=DATE:20240205
 COLOR:#FF9500
-SUMMARY:补·春节调休·1/8
+SUMMARY:补班·春节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：春节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 年
  统计（日历口径）——\n本年补班进度：第 1 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：8 天。
@@ -382,11 +382,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:8aa7002d3f1a29be5bb247206a96c110@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240218
 DTEND;VALUE=DATE:20240219
 COLOR:#FF9500
-SUMMARY:补·春节调休·2/8
+SUMMARY:补班·春节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：春节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 年
  统计（日历口径）——\n本年补班进度：第 2 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：8 天。
@@ -394,11 +394,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:ff14538ba5e1d0a74e3bd700846819d0@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240407
 DTEND;VALUE=DATE:20240408
 COLOR:#FF9500
-SUMMARY:补·清明调休·3/8
+SUMMARY:补班·清明调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：清明调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 年
  统计（日历口径）——\n本年补班进度：第 3 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：8 天。
@@ -406,11 +406,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:a39711fe5fad119e0255285af3a8753d@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240428
 DTEND;VALUE=DATE:20240429
 COLOR:#FF9500
-SUMMARY:补·劳动节调休·4/8
+SUMMARY:补班·劳动节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：劳动节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 
  年统计（日历口径）——\n本年补班进度：第 4 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）
  。\n本年调休补班天数合计：8 天。
@@ -418,11 +418,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:b5a5ca047d71f8891ba6d9d8be0b4b28@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240511
 DTEND;VALUE=DATE:20240512
 COLOR:#FF9500
-SUMMARY:补·劳动节调休·5/8
+SUMMARY:补班·劳动节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：劳动节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 
  年统计（日历口径）——\n本年补班进度：第 5 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）
  。\n本年调休补班天数合计：8 天。
@@ -430,11 +430,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:8dc1f33851f392ecc58783f25d1acf14@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240914
 DTEND;VALUE=DATE:20240915
 COLOR:#FF9500
-SUMMARY:补·中秋调休·6/8
+SUMMARY:补班·中秋调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：中秋调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 年
  统计（日历口径）——\n本年补班进度：第 6 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：8 天。
@@ -442,11 +442,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:65358d45786549ae973b7af6b3d0dbad@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20240929
 DTEND;VALUE=DATE:20240930
 COLOR:#FF9500
-SUMMARY:补·国庆调休·7/8
+SUMMARY:补班·国庆调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：国庆调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 年
  统计（日历口径）——\n本年补班进度：第 7 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：8 天。
@@ -454,11 +454,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:914821c99a2900824d86a0e759a3bf19@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20241012
 DTEND;VALUE=DATE:20241013
 COLOR:#FF9500
-SUMMARY:补·国庆调休·8/8
+SUMMARY:补班·国庆调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：国庆调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2024 年
  统计（日历口径）——\n本年补班进度：第 8 天 / 共 8 天（按补班日期先后排序）。\n本年放假天数合计：32 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：8 天。
@@ -466,11 +466,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:ea13177e34d7b7b919b5e598b447e7c6@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250101
 DTEND;VALUE=DATE:20250102
 COLOR:#34C759
-SUMMARY:休·元旦·1/1
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 1 天 · 今天是第 1 天。\n元旦 — 依据国务院公布的节假日安排。\n放
  假1天不调休\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 
  天。
@@ -478,308 +478,308 @@ CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:db535fba24c53ecc9039a8824518c5a5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250128
 DTEND;VALUE=DATE:20250129
 COLOR:#34C759
-SUMMARY:休·春节·1/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 1 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:431e7b2bf53a3a2cb022d87b7bb68380@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250129
 DTEND;VALUE=DATE:20250130
 COLOR:#34C759
-SUMMARY:休·春节·2/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 2 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:adbc4338a4458782cf06edf1655f7ec2@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250130
 DTEND;VALUE=DATE:20250131
 COLOR:#34C759
-SUMMARY:休·春节·3/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 3 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d9a84b252048e4e78f91f95495faeed4@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250131
 DTEND;VALUE=DATE:20250201
 COLOR:#34C759
-SUMMARY:休·春节·4/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 4 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:8323f607e0daed3eb939d63200bc389c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250201
 DTEND;VALUE=DATE:20250202
 COLOR:#34C759
-SUMMARY:休·春节·5/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 5 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:818a449a47ea5cdcbd5d3bae939221a5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250202
 DTEND;VALUE=DATE:20250203
 COLOR:#34C759
-SUMMARY:休·春节·6/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 6 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:23a204e0e10ee66c77964464dcf58870@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250203
 DTEND;VALUE=DATE:20250204
 COLOR:#34C759
-SUMMARY:休·春节·7/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 7 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d5eebcc227e5b9f68d1f87186ff2719a@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250204
 DTEND;VALUE=DATE:20250205
 COLOR:#34C759
-SUMMARY:休·春节·8/8
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 8 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:a83d2d8e7fe674ebf2a76065443044c1@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250404
 DTEND;VALUE=DATE:20250405
 COLOR:#34C759
-SUMMARY:休·清明节·1/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:9c0f3a9113882f82a32690d3e97f9609@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250405
 DTEND;VALUE=DATE:20250406
 COLOR:#34C759
-SUMMARY:休·清明节·2/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:b4edc5bd24fb55acabdf20067fe481eb@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250406
 DTEND;VALUE=DATE:20250407
 COLOR:#34C759
-SUMMARY:休·清明节·3/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:26a6bd732ac2e228ef6136054dba536d@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250501
 DTEND;VALUE=DATE:20250502
 COLOR:#34C759
-SUMMARY:休·劳动节·1/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 1 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:0174d1747e20effea374dc70b62b865c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250502
 DTEND;VALUE=DATE:20250503
 COLOR:#34C759
-SUMMARY:休·劳动节·2/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 2 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:ed421ea7c3dc0aea0c14aff3b5a3cfa9@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250503
 DTEND;VALUE=DATE:20250504
 COLOR:#34C759
-SUMMARY:休·劳动节·3/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 3 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d7363b2031d2b137e3ddb049bb47446c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250504
 DTEND;VALUE=DATE:20250505
 COLOR:#34C759
-SUMMARY:休·劳动节·4/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 4 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:8cc699b9bf5e7229f0ce33d2bf1a9c51@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250505
 DTEND;VALUE=DATE:20250506
 COLOR:#34C759
-SUMMARY:休·劳动节·5/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 5 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d335e2f1f08219d09cf25f3851e3daf5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250531
 DTEND;VALUE=DATE:20250601
 COLOR:#34C759
-SUMMARY:休·端午节·1/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n端午节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:b61082fbfa5e3c38f4d999151f5e3927@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250601
 DTEND;VALUE=DATE:20250602
 COLOR:#34C759
-SUMMARY:休·端午节·2/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n端午节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:94b6920d2ccca5e83bd401d654580b91@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250602
 DTEND;VALUE=DATE:20250603
 COLOR:#34C759
-SUMMARY:休·端午节·3/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n端午节 — 依据国务院公布的节假日安排。\n
  \n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:2f833a6ad8268033f059c054cc900889@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20251002
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·1/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 1 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:9e7f5237b695309f4fe75549c5639b67@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251002
 DTEND;VALUE=DATE:20251003
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·2/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 2 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:023c2d0a8ab077a1659d46ca1011478c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·3/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 3 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:e609aa6544258c4f068846b4a141b3b5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251005
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·4/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 4 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:aea361dc70b3d8b2c7a382e6196e4c80@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251005
 DTEND;VALUE=DATE:20251006
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·5/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 5 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:9b9ab0e0066036fa7aa305598f224614@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251006
 DTEND;VALUE=DATE:20251007
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·6/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 6 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:f9fadc0f77690c6b8db0ee9cd6a628ee@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251007
 DTEND;VALUE=DATE:20251008
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·7/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 7 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:b683e054f290f1dd4917142bc8276f9a@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251008
 DTEND;VALUE=DATE:20251009
 COLOR:#34C759
-SUMMARY:休·国庆节、中秋节·8/8
+SUMMARY:国庆节、中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 8 天 · 今天是第 8 天。\n国庆节、中秋节 — 依据国务院公布的节假日安
  排。\n\n—— 2025 年统计（日历口径）——\n本年放假天数合计：28 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：5 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:0b260f7598e618db048c94285dbeeedd@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250126
 DTEND;VALUE=DATE:20250127
 COLOR:#FF9500
-SUMMARY:补·春节调休·1/5
+SUMMARY:补班·春节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：春节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2025 年
  统计（日历口径）——\n本年补班进度：第 1 天 / 共 5 天（按补班日期先后排序）。\n本年放假天数合计：28 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：5 天。
@@ -787,11 +787,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:d04cf52b14334d0938bd0538537103c0@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250208
 DTEND;VALUE=DATE:20250209
 COLOR:#FF9500
-SUMMARY:补·春节调休·2/5
+SUMMARY:补班·春节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：春节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2025 年
  统计（日历口径）——\n本年补班进度：第 2 天 / 共 5 天（按补班日期先后排序）。\n本年放假天数合计：28 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：5 天。
@@ -799,11 +799,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:b4c191efb421989932b8ff6b2ed0bc7d@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250427
 DTEND;VALUE=DATE:20250428
 COLOR:#FF9500
-SUMMARY:补·劳动节调休·3/5
+SUMMARY:补班·劳动节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：劳动节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2025 
  年统计（日历口径）——\n本年补班进度：第 3 天 / 共 5 天（按补班日期先后排序）。\n本年放假天数合计：28 天（各节假日放假区间天数相加）
  。\n本年调休补班天数合计：5 天。
@@ -811,11 +811,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:736978595a4d1e8c476386f9564a3f73@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20250928
 DTEND;VALUE=DATE:20250929
 COLOR:#FF9500
-SUMMARY:补·国庆中秋调休·4/5
+SUMMARY:补班·国庆中秋调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：国庆中秋调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2025
   年统计（日历口径）——\n本年补班进度：第 4 天 / 共 5 天（按补班日期先后排序）。\n本年放假天数合计：28 天（各节假日放假区间天数相加
  ）。\n本年调休补班天数合计：5 天。
@@ -823,11 +823,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:60c6e2ed7c2fd2026b2b4727128045f2@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20251011
 DTEND;VALUE=DATE:20251012
 COLOR:#FF9500
-SUMMARY:补·国庆中秋调休·5/5
+SUMMARY:补班·国庆中秋调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：国庆中秋调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2025
   年统计（日历口径）——\n本年补班进度：第 5 天 / 共 5 天（按补班日期先后排序）。\n本年放假天数合计：28 天（各节假日放假区间天数相加
  ）。\n本年调休补班天数合计：5 天。
@@ -835,374 +835,374 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:53d5fdeecb355b15fa8a5d1c548faf2e@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 COLOR:#34C759
-SUMMARY:休·元旦·1/3
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n元旦 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:3490ce447ae98442481cc6fc49a324cf@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260102
 DTEND;VALUE=DATE:20260103
 COLOR:#34C759
-SUMMARY:休·元旦·2/3
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n元旦 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:04f4bb6001fd97cb40300af6a8eae062@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260103
 DTEND;VALUE=DATE:20260104
 COLOR:#34C759
-SUMMARY:休·元旦·3/3
+SUMMARY:元旦
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n元旦 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:aad4136ccf18546b00c46a966f7cb37b@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260215
 DTEND;VALUE=DATE:20260216
 COLOR:#34C759
-SUMMARY:休·春节·1/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 1 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:37160b251e0ce758afea13653c600374@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260216
 DTEND;VALUE=DATE:20260217
 COLOR:#34C759
-SUMMARY:休·春节·2/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 2 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:ae2dff00344a38711976aa37828a76ab@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20260218
 COLOR:#34C759
-SUMMARY:休·春节·3/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 3 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:a0c453f8917451817710358f1d51dd24@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260218
 DTEND;VALUE=DATE:20260219
 COLOR:#34C759
-SUMMARY:休·春节·4/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 4 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:c146ce1ab38fedac6b490a630ce4a271@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260219
 DTEND;VALUE=DATE:20260220
 COLOR:#34C759
-SUMMARY:休·春节·5/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 5 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d731b6ac64ce5a8c025842f4066518c1@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260220
 DTEND;VALUE=DATE:20260221
 COLOR:#34C759
-SUMMARY:休·春节·6/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 6 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:5fdd311b68e1fb572e7d7a6644c52423@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260221
 DTEND;VALUE=DATE:20260222
 COLOR:#34C759
-SUMMARY:休·春节·7/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 7 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:46bad418b74b9e9ef83378c1d6c1722c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260222
 DTEND;VALUE=DATE:20260223
 COLOR:#34C759
-SUMMARY:休·春节·8/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 8 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:0aca7269708b9bfba02a9cae340bb61b@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260223
 DTEND;VALUE=DATE:20260224
 COLOR:#34C759
-SUMMARY:休·春节·9/9
+SUMMARY:春节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 9 天 · 今天是第 9 天。\n春节 — 依据国务院公布的节假日安排。\n\
  n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d1a34996b91bd36c064fd1647a7dcb65@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260404
 DTEND;VALUE=DATE:20260405
 COLOR:#34C759
-SUMMARY:休·清明节·1/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:ffe04acfadd22e4df9600f12ff7dad34@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260405
 DTEND;VALUE=DATE:20260406
 COLOR:#34C759
-SUMMARY:休·清明节·2/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:4515dba780af7e571214e08ee083e227@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 COLOR:#34C759
-SUMMARY:休·清明节·3/3
+SUMMARY:清明节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n清明节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:385bb4c9911db554ad9c6e3e64a56ba5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 COLOR:#34C759
-SUMMARY:休·劳动节·1/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 1 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:34b366f25bf3d4501cfa22b7aa2354c0@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260503
 COLOR:#34C759
-SUMMARY:休·劳动节·2/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 2 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:6b9a5e7879ae384f2695ea27e89faa6d@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260503
 DTEND;VALUE=DATE:20260504
 COLOR:#34C759
-SUMMARY:休·劳动节·3/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 3 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:a0c0f61dce95d73f6d7611b5afbbd6c1@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260504
 DTEND;VALUE=DATE:20260505
 COLOR:#34C759
-SUMMARY:休·劳动节·4/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 4 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:7208ccdc8d8f6c6a105f4aa0c7d03c5b@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260505
 DTEND;VALUE=DATE:20260506
 COLOR:#34C759
-SUMMARY:休·劳动节·5/5
+SUMMARY:劳动节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 5 天 · 今天是第 5 天。\n劳动节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:88207eaa6c93e8f0062a5ce882a732e3@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 COLOR:#34C759
-SUMMARY:休·端午节·1/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n端午节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:a5c3906a2276ca9787bf3dc053659587@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 COLOR:#34C759
-SUMMARY:休·端午节·2/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n端午节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:ae6dd1f3ce61f33ba803388370154fc5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 COLOR:#34C759
-SUMMARY:休·端午节·3/3
+SUMMARY:端午节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n端午节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:01b85fb31b01ec35583f61403d07cd3d@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 COLOR:#34C759
-SUMMARY:休·中秋节·1/3
+SUMMARY:中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 1 天。\n中秋节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:7923f7e9f397e0a199b762bc1db2ddd6@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 COLOR:#34C759
-SUMMARY:休·中秋节·2/3
+SUMMARY:中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 2 天。\n中秋节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:abed3bfa659340e736be3f1dfdb3b4e5@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 COLOR:#34C759
-SUMMARY:休·中秋节·3/3
+SUMMARY:中秋节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 3 天 · 今天是第 3 天。\n中秋节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:92a5fe897bbb5eb405124a2d3c59628f@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 COLOR:#34C759
-SUMMARY:休·国庆节·1/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 1 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:4ac17b5f0676eff56dc30782950b2423@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 COLOR:#34C759
-SUMMARY:休·国庆节·2/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 2 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:64cd26d9d37859c9bbb5336125fd9c59@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 COLOR:#34C759
-SUMMARY:休·国庆节·3/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 3 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:639967cc3178ca68f27ea37568156961@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 COLOR:#34C759
-SUMMARY:休·国庆节·4/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 4 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:fea58d9c16bcf5755b3f387383941a59@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 COLOR:#34C759
-SUMMARY:休·国庆节·5/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 5 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:d029cc269af69e5022bf89341b1808d2@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 COLOR:#34C759
-SUMMARY:休·国庆节·6/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 6 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:3553a25d5f5fc9dc208f94c1e21c286a@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 COLOR:#34C759
-SUMMARY:休·国庆节·7/7
+SUMMARY:国庆节
 DESCRIPTION:今日标记：休（法定放假）。\n\n本轮放假：共 7 天 · 今天是第 7 天。\n国庆节 — 依据国务院公布的节假日安排。\n
  \n—— 2026 年统计（日历口径）——\n本年放假天数合计：33 天（各节假日放假区间天数相加）。\n本年调休补班天数合计：6 天。
 CATEGORIES:法定假日
 END:VEVENT
 BEGIN:VEVENT
 UID:afe947e0633a3ae8fe0d6e26c6745aea@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260104
 DTEND;VALUE=DATE:20260105
 COLOR:#FF9500
-SUMMARY:补·元旦调休·1/6
+SUMMARY:补班·元旦调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：元旦调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2026 年
  统计（日历口径）——\n本年补班进度：第 1 天 / 共 6 天（按补班日期先后排序）。\n本年放假天数合计：33 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：6 天。
@@ -1210,11 +1210,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:fcc851f3a89d65b81a50137a5f17f47c@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260214
 DTEND;VALUE=DATE:20260215
 COLOR:#FF9500
-SUMMARY:补·春节调休·2/6
+SUMMARY:补班·春节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：春节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2026 年
  统计（日历口径）——\n本年补班进度：第 2 天 / 共 6 天（按补班日期先后排序）。\n本年放假天数合计：33 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：6 天。
@@ -1222,11 +1222,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:b4f223325db4ac7927bc3506f70cae4a@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260228
 DTEND;VALUE=DATE:20260301
 COLOR:#FF9500
-SUMMARY:补·春节调休·3/6
+SUMMARY:补班·春节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：春节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2026 年
  统计（日历口径）——\n本年补班进度：第 3 天 / 共 6 天（按补班日期先后排序）。\n本年放假天数合计：33 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：6 天。
@@ -1234,11 +1234,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:0894db2d76cf2445a90387a1dbefdecb@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260509
 DTEND;VALUE=DATE:20260510
 COLOR:#FF9500
-SUMMARY:补·劳动节调休·4/6
+SUMMARY:补班·劳动节调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：劳动节调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2026 
  年统计（日历口径）——\n本年补班进度：第 4 天 / 共 6 天（按补班日期先后排序）。\n本年放假天数合计：33 天（各节假日放假区间天数相加）
  。\n本年调休补班天数合计：6 天。
@@ -1246,11 +1246,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:78cf1de015358b88fdba2d9c5216fa1f@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 COLOR:#FF9500
-SUMMARY:补·国庆调休·5/6
+SUMMARY:补班·国庆调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：国庆调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2026 年
  统计（日历口径）——\n本年补班进度：第 5 天 / 共 6 天（按补班日期先后排序）。\n本年放假天数合计：33 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：6 天。
@@ -1258,11 +1258,11 @@ CATEGORIES:调休补班
 END:VEVENT
 BEGIN:VEVENT
 UID:d34b59822a85573a2469893e94ab7339@chinese-ics
-DTSTAMP:20260513T055853Z
+DTSTAMP:20260513T060730Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 COLOR:#FF9500
-SUMMARY:补·国庆调休·6/6
+SUMMARY:补班·国庆调休
 DESCRIPTION:今日标记：补（调休补班）。\n\n事由：国庆调休。\n原为周末或休息日，按国务院安排当日须正常上班。\n\n—— 2026 年
  统计（日历口径）——\n本年补班进度：第 6 天 / 共 6 天（按补班日期先后排序）。\n本年放假天数合计：33 天（各节假日放假区间天数相加）。
  \n本年调休补班天数合计：6 天。
