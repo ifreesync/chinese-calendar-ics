@@ -48,6 +48,11 @@ JQ_INDEX_TO_NAME = (
     "大雪",
 )
 
+# RFC 7986 COLOR（放假绿 / 补班橙）。iPhone「日历」对已订阅日历多数情况下整条日历只有一种颜色，
+# 仍以标题里的「休」「补」区分；写入 COLOR 便于今后或其它客户端识别。
+COLOR_LEGAL_REST = "#34C759"
+COLOR_LEGAL_MAKEUP = "#FF9500"
+
 TRADITIONAL_LUNAR_EVENTS: List[Tuple[int, int, str, bool]] = [
     (1, 15, "元宵节（正月十五）", False),
     (2, 2, "龙抬头（二月初二）", False),
@@ -171,12 +176,15 @@ def add_all_day_vevent(
     uid: str,
     categories: str,
     description: str = "",
+    color: str | None = None,
 ) -> None:
     lines.append("BEGIN:VEVENT")
     lines.append("UID:%s" % uid)
     lines.append("DTSTAMP:%s" % _dtstamp_utc())
     lines.append("DTSTART;VALUE=DATE:%s" % _format_date_value(start))
     lines.append("DTEND;VALUE=DATE:%s" % _format_date_value(end_exclusive))
+    if color:
+        lines.append("COLOR:%s" % color)
     for L in _fold_line("SUMMARY:%s" % _ics_escape(summary)):
         lines.append(L)
     if description:
@@ -228,33 +236,84 @@ def build_calendar_official(holiday_data: dict, years: range, lines: List[str]) 
         block = holiday_data.get(key)
         if not block:
             continue
-        for v in block.get("vacations", []):
+        vacations = block.get("vacations", [])
+        makeups = block.get("makeup_workdays", [])
+        makeup_sorted = sorted(makeups, key=lambda m: m["date"])
+        year_makeup_total = len(makeup_sorted)
+
+        year_vacation_calendar_days = 0
+        for v in vacations:
+            start_v = _parse_date(v["start"])
+            end_v = _parse_date(v["end"])
+            year_vacation_calendar_days += (end_v - start_v).days + 1
+
+        for v in vacations:
             start = _parse_date(v["start"])
             end_incl = _parse_date(v["end"])
-            end_ex = end_incl + timedelta(days=1)
             name = v["name"]
-            note = v.get("note", "")
-            desc = "中国法定节假日（国务院公布）" + ("。%s" % note if note else "")
-            add_all_day_vevent(
-                lines,
-                start,
-                end_ex,
-                "%s（放假）" % name,
-                _uid("vac", key, v["start"], v["end"], name),
-                "法定假日",
-                desc,
-            )
-        for m in block.get("makeup_workdays", []):
+            note = (v.get("note") or "").strip()
+            total_days = (end_incl - start).days + 1
+            for day_idx in range(total_days):
+                d = start + timedelta(days=day_idx)
+                nth = day_idx + 1
+                # 紧凑标题，适配 iPhone 月视图格子（详情见 DESCRIPTION）
+                summary = "休·%s·%d/%d" % (name, nth, total_days)
+                desc_lines = [
+                    "今日标记：休（法定放假）。",
+                    "",
+                    "本轮放假：共 %d 天 · 今天是第 %d 天。" % (total_days, nth),
+                    "%s — 依据国务院公布的节假日安排。" % name,
+                ]
+                if note:
+                    desc_lines.append(note)
+                desc_lines.extend(
+                    [
+                        "",
+                        "—— %s 年统计（日历口径）——" % key,
+                        "本年放假天数合计：%d 天（各节假日放假区间天数相加）。"
+                        % year_vacation_calendar_days,
+                        "本年调休补班天数合计：%d 天。" % year_makeup_total,
+                    ]
+                )
+                description = "\n".join(desc_lines)
+                add_all_day_vevent(
+                    lines,
+                    d,
+                    d + timedelta(days=1),
+                    summary,
+                    _uid("vac", key, str(d), name),
+                    "法定假日",
+                    description,
+                    color=COLOR_LEGAL_REST,
+                )
+
+        for idx, m in enumerate(makeup_sorted, start=1):
             d = _parse_date(m["date"])
             for_label = m.get("for", "调休")
+            summary = "补·%s·%d/%d" % (for_label, idx, year_makeup_total)
+            desc_lines = [
+                "今日标记：补（调休补班）。",
+                "",
+                "事由：%s。" % for_label,
+                "原为周末或休息日，按国务院安排当日须正常上班。",
+                "",
+                "—— %s 年统计（日历口径）——" % key,
+                "本年补班进度：第 %d 天 / 共 %d 天（按补班日期先后排序）。"
+                % (idx, year_makeup_total),
+                "本年放假天数合计：%d 天（各节假日放假区间天数相加）。"
+                % year_vacation_calendar_days,
+                "本年调休补班天数合计：%d 天。" % year_makeup_total,
+            ]
+            description = "\n".join(desc_lines)
             add_all_day_vevent(
                 lines,
                 d,
                 d + timedelta(days=1),
-                "调休上班（%s）" % for_label,
+                summary,
                 _uid("work", m["date"], for_label),
                 "调休补班",
-                "原为周末，调整为工作日。",
+                description,
+                color=COLOR_LEGAL_MAKEUP,
             )
 
 
